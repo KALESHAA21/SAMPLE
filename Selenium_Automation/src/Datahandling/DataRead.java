@@ -12,5 +12,6 @@ public static void main(String[] args) throws Exception {
 	XSSFWorkbook wb=new XSSFWorkbook(fis);
 	XSSFSheet sheet=wb.getSheetAt(0);
 	wb.close();
+	System.out.println(wb.getsheetAt(0).getcell();
 }
 }
